@@ -17,6 +17,7 @@ export function buildLoaders({isDev}: BuildOptions): webpack.RuleSetRule[] {
           },
         }
       },
+      // "css-modules-typescript-loader",
       "sass-loader",
     ],
   }
